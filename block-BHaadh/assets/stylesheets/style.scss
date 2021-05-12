@@ -110,3 +110,30 @@ body {
     background: rgba(218, 165, 32, 0.562);
     transform: rotateX(-90deg) translateZ(100px); 
 }
+// ROTATE 
+.cube-3d.show-front  {
+   transform: translateZ(-100px) rotateY(   0deg); 
+  }
+.cube-3d.show-right  {
+   transform: translateZ(-100px) rotateY( -90deg); 
+  }
+.cube-3d.show-back   {
+   transform: translateZ(-100px) rotateY(-180deg); 
+  }
+.cube-3d.show-left   {
+   transform: translateZ(-100px) rotateY(  90deg); 
+  }
+.cube-3d.show-top    {
+   transform: translateZ(-100px) rotateX( -90deg); 
+  }
+.cube-3d.show-bottom {  
+   transform: translateZ(-100px) rotateX(  90deg); 
+  }
+  .radio-group {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  label { 
+    margin-right: 10px; 
+  }
